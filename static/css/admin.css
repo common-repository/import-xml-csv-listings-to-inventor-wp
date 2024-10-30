@@ -1,0 +1,83 @@
+/*
+* Location Categories
+*/
+
+
+/* Stacked and staggered */
+
+.child-indicator {
+    display: none;
+}
+
+.location-tax.lt-child {
+    width: 95%;
+    position: relative;
+    left: 5%;
+}
+
+.location-tax.lt-sub-child {
+    width: 90%;
+    position: relative;
+    left: 10%;
+}
+
+/* One line with > seperators -
+
+.location-tax {
+    display: inline-block;
+    width: 30%;
+}
+
+.child-indicator {
+    display: inline-block;
+    font-size: 19px;
+    font-weight:bold;
+    position:relative;
+    top: 3px;
+    padding:0 2%;
+}
+*/
+
+
+/*
+* Opening Hours
+*/
+
+
+td.opening-hours-day {
+    vertical-align: middle!important;
+}
+
+td.opening-hours-day .input {
+    vertical-align: middle!important;
+    padding-right: 50px;
+    margin: 0!important;
+    font-weight: bold;
+}
+
+td.opening-hours-from .input{
+    padding-right: 50px;
+}
+
+td.opening-hours-to .input{
+    padding-right: 50px;
+}
+
+/* Seperator Selector */
+
+table.seperator td {
+    vertical-align: middle!important;
+}
+
+table.seperator td div.input {
+    width: 50px !important;
+    margin: 10px !important;
+}
+
+table.seperator td div.input input {
+    text-align: center!important;
+}
+
+table.seperator td h4 {
+    margin: 0!important;
+}
